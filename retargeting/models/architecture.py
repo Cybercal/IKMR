@@ -137,6 +137,7 @@ class GAN_model(BaseModel):
             self.res.append(res)
             self.res_denorm.append(res_denorm)
 
+            # Notice, this is time-consuming
             pos = self.models[i].fk.forward_from_raw(motion_denorm, self.dataset.offsets[i][offset_idx]).detach()
             ee = get_ee(pos, self.dataset.joint_topologies[i], self.dataset.ee_ids[i],
                         velo=self.args.ee_velo, from_root=self.args.ee_from_root)
@@ -157,8 +158,9 @@ class GAN_model(BaseModel):
                 dst_offsets_repr = [self.offset_repr[dst][p][rnd_idx] for p in range(self.args.num_layers + 1)]
                 fake_res = self.models[dst].auto_encoder.dec(self.latents[src], dst_offsets_repr)   # [QAA,QAB,QBA,QBB]
                 fake_latent = self.models[dst].auto_encoder.enc(fake_res, dst_offsets_repr)  # [pA', pB']
-
                 fake_res_denorm = self.dataset.denorm(dst, rnd_idx, fake_res)
+                
+                # Notice, this is time-consuming
                 fake_pos = self.models[dst].fk.forward_from_raw(fake_res_denorm, self.dataset.offsets[dst][rnd_idx])
                 fake_ee = get_ee(fake_pos, self.dataset.joint_topologies[dst], self.dataset.ee_ids[dst],
                                  velo=self.args.ee_velo, from_root=self.args.ee_from_root)

@@ -2,15 +2,15 @@ import os
 import sys
 
 # if terminal
-# sys.path.append('./retargeting/')
+sys.path.append('./retargeting/')
 
 # if debug
-current_working_dir = os.getcwd()
-sys.path.append(current_working_dir)
-print(f"当前工作目录: {current_working_dir}")
-new_working_dir = os.path.join(current_working_dir, 'retargeting/')
-os.chdir(new_working_dir)
-print(f"当前工作目录: {new_working_dir}")
+# current_working_dir = os.getcwd()
+# sys.path.append(current_working_dir)
+# print(f"当前工作目录: {current_working_dir}")
+# new_working_dir = os.path.join(current_working_dir, 'retargeting/')
+# os.chdir(new_working_dir)
+# print(f"当前工作目录: {new_working_dir}")
 
 from torch.utils.data.dataloader import DataLoader
 from models import create_model

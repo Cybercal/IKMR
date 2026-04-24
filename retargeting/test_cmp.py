@@ -3,12 +3,12 @@ import sys
 import time
 
 # if debug
-current_working_dir = os.getcwd()
-sys.path.append(current_working_dir)
-print(f"当前工作目录: {current_working_dir}")
-new_working_dir = os.path.join(current_working_dir, 'retargeting/')
-os.chdir(new_working_dir)
-print(f"当前工作目录: {new_working_dir}")
+# current_working_dir = os.getcwd()
+# sys.path.append(current_working_dir)
+# print(f"当前工作目录: {current_working_dir}")
+# new_working_dir = os.path.join(current_working_dir, 'retargeting/')
+# os.chdir(new_working_dir)
+# print(f"当前工作目录: {new_working_dir}")
 
 from os.path import join as pjoin
 # from get_error import full_batch

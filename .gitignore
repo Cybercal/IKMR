@@ -113,3 +113,4 @@ retargeting/datasets/Mixamo/*
 retargeting/datasets/test_set.tar.bz2
 retargeting/pretrained/results/*
 retargeting/examples
+retargeting/exp/*
