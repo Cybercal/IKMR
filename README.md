@@ -8,10 +8,11 @@ Paper Link: https://arxiv.org/pdf/2509.15443
 
 ## Overview 
 A lightweight neural retargeting method from human to humanoid motion through style transfer,
-It is skeletal-topology based and supports large-scale and stream motion retargeting.
+It is design for end-to-end motion retargeting based on skeletal-topology, 
+and this framework supports large-scale data and online stream motion.
 ![Performance](pic.png)
 
-## Structure
+## Code Structure
 ```
 IKMR/
 ├── posebox/                    ← motion data proc
@@ -22,7 +23,7 @@ IKMR/
 └── readme.md
 ```
 Here, `/retargeting/datasets/CMP` only releases 10 processed motion sequence for SMPL-G1 pairs.
-We suggest 2000+ motion can obtain a stable and good retargeting quality.
+We suggest to use 2000+ motion for a stable and good retargeting quality.
 More motion pairs will achieve better performance.
 
 ## Quick Start
