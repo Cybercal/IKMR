@@ -56,8 +56,21 @@ tensorboard --logdir=./retargeting/exp/your_exp/logs
 python test_cmp.py
 ```
 Training trick: The forward kinematics for end-effector calculation is time-cost, you can comment out this part at beginning, then apply them later.
+Feel free to open an issue or discussion if you encounter any problems or have questions about this training process.
 
 ## Acknowledgments
 We would like to acknowledge the following projects from which parts of the code in this repo are derived from:
 - DeepMotionEditing: https://github.com/DeepMotionEditing
 - Poselib: https://github.com/ZhengyiLuo/PHC/blob/master/poselib
+
+## Citation
+If you find our work helpful, please cite:
+```bibtex
+@article{Chen2025ImplicitKM,
+  title={Implicit Kinodynamic Motion Retargeting for Human-to-humanoid Imitation Learning},
+  author={Xingyu Chen and Hanyu Wu and Sikai Wu and Mingliang Zhou and Diyun Xiang and Haodong Zhang},
+  journal={arXiv preprint arXiv:2509.15443},
+  year={2025},
+  url={https://arxiv.org/abs/2509.15443}
+}
+```
