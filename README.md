@@ -1,5 +1,12 @@
-# IKMR
+# IKMR: Implicit Kinodynamic Motion Retargeting for Human-to-humanoid Imitation Learning
 <div align="center">
+  <p align="center">
+    <a href='https://cybercal.github.io/'>Xingyu Chen</a>,
+    Hanyu Wu, Sikai Wu, Mingliang Zhou, Diyun Xiang, Haodong Zhang
+    <br>
+    Xiaomi Robotics Lab, ETH Zurich, Zhejiang University
+  </p>
+</p>
 
 [![Project](https://img.shields.io/badge/Project-Page-green?style=flat&logo=Google%20chrome&logoColor=green)](https://cybercal.github.io/webpage.ikmr/)
 [![Arxiv](https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow)](https://arxiv.org/pdf/2509.15443)
@@ -7,18 +14,17 @@
 
 </div>
 
-Implement of Implicit Kinodynamic Motion Retargeting for Human-to-humanoid Imitation Learning
+
+## Overview 
+Implement of Implicit Kinodynamic Motion Retargeting (IKMR) for Human-to-humanoid Imitation Learning. A lightweight neural retargeting method from human to humanoid motion through style transfer,
+It is design for end-to-end motion retargeting based on skeletal-topology, 
+and this framework supports large-scale data and online stream motion.
+![Performance](pic.png)
+
 
 Our Performance shown on project page: https://cybercal.github.io/webpage.ikmr/
 
 Paper Link: https://arxiv.org/pdf/2509.15443
-
-
-## Overview 
-A lightweight neural retargeting method from human to humanoid motion through style transfer,
-It is design for end-to-end motion retargeting based on skeletal-topology, 
-and this framework supports large-scale data and online stream motion.
-![Performance](pic.png)
 
 ## Code Structure
 ```
