@@ -1,4 +1,12 @@
 # IKMR
+<div align="center">
+
+[![Project](https://img.shields.io/badge/Project-Page-green?style=flat&logo=Google%20chrome&logoColor=green)](https://cybercal.github.io/webpage.ikmr/)
+[![Arxiv](https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow)](https://arxiv.org/pdf/2509.15443)
+[![code](https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white)](https://github.com/Cybercal/IKMR)
+
+</div>
+
 Implement of Implicit Kinodynamic Motion Retargeting for Human-to-humanoid Imitation Learning
 
 Our Performance shown on project page: https://cybercal.github.io/webpage.ikmr/
