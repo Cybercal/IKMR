@@ -2,9 +2,9 @@
 <div align="center">
   <p align="center">
     <a href='https://cybercal.github.io/'>Xingyu Chen</a>,
-    Hanyu Wu, Sikai Wu, Mingliang Zhou, Diyun Xiang, Haodong Zhang
+    Hanyu Wu, Sikai Wu, Mingliang Zhou, Diyun Xiang, Haodong Zhang, Yangchen Zhou, Yukang Gao, Yi Gu
     <br>
-    Xiaomi Robotics Lab, ETH Zurich, Zhejiang University
+    HKUST(GZ), ETH Zurich, Zhejiang University, Xiaomi Robotics Lab
   </p>
 </p>
 
@@ -80,9 +80,9 @@ We would like to acknowledge the following projects from which parts of the code
 ## Citation
 If you find our work helpful, please cite:
 ```bibtex
-@article{Chen2025ImplicitKM,
-  title={Implicit Kinodynamic Motion Retargeting for Human-to-humanoid Imitation Learning},
-  author={Xingyu Chen and Hanyu Wu and Sikai Wu and Mingliang Zhou and Diyun Xiang and Haodong Zhang},
+@article{chen2025ikmr,
+  title={A Scalable Whole-body Motion Transfer via Implicit Kinodynamic Motion Retargeting},
+  author={Chen, Xingyu and Wu, Hanyu and Wu, Sikai and Zhou, Mingliang and Xiang, Diyun and Zhang, Haodong and Zhou, Yangchen and Gao, Yukang and Gu, Yi and Xu, Renjing},
   journal={arXiv preprint arXiv:2509.15443},
   year={2025},
   url={https://arxiv.org/abs/2509.15443}
