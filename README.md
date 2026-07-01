@@ -2,7 +2,8 @@
 <div align="center">
   <p align="center">
     <a href='https://cybercal.github.io/'>Xingyu Chen</a>,
-    Hanyu Wu, Sikai Wu, Mingliang Zhou, Diyun Xiang, Haodong Zhang, Yangchen Zhou, Yukang Gao, Yi Gu
+    Hanyu Wu, Sikai Wu, Mingliang Zhou, Diyun Xiang, Haodong Zhang, <br>
+    Yangchen Zhou, Yukang Gao, Yi Gu, Renjing Xu
     <br>
     HKUST(GZ), ETH Zurich, Zhejiang University, Xiaomi Robotics Lab
   </p>
